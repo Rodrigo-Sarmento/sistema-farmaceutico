@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Farmacia_browser.jnlp">
+  <information>
+    <title>Farmacia</title>
+    <vendor>Rodrigo Sarmento</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Farmacia.jar" size="1665573" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+    <jar href="lib\UGComp.jar" size="13033" download="eager" />
+    <jar href="lib\UGLibrary.jar" size="63253" download="eager" />
+    <jar href="lib\mysql-connector-java-5.1.23-bin.jar" size="834126" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="view.TelaLogin"  name="Farmacia" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
